@@ -14,7 +14,9 @@ const Hero = () => {
             Molestias, hic iusto?
           </p>
           <div className="flex gap-4 items-center md:justify-start justify-center">
-            <button className="primary-btn">Food Menu</button>
+            <button className="primary-btn hover:scale-105 duration-200">
+              Food Menu
+            </button>
             <button className="secundary-btn text-black">Book Table</button>
           </div>
         </div>
