@@ -15,12 +15,16 @@ const Hero = () => {
           </p>
           <div className="flex gap-4 items-center md:justify-start justify-center">
             <button className="primary-btn">Food Menu</button>
-            <button className="secundary-btn">Book Table</button>
+            <button className="secundary-btn text-black">Book Table</button>
           </div>
         </div>
         {/*image section */}
         <div className="flex flex-col justify-center">
-          <img src={HeroImg} alt="" />
+          <img
+            src={HeroImg}
+            alt=""
+            className="img-shadow max-w-[500px] w-[340px] mx-auto md:mx-0"
+          />
         </div>
       </div>
     </div>
